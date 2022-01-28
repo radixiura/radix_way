@@ -1,1 +1,11 @@
-tmp
+Пространственная безопасность – это гарантия того, что программа будет вести себя определенным и безопасным способом, если она обращается к памяти за пределами допустимых границ. Примеры включают границы массива, доступ к структуре и объединению полей, а также доступ к итератору.
+
+Spatial safety is the guarantee that the program will behave in a defined and safe way if it accesses memory outside valid bounds. Examples include array bounds, struct and union field access, and iterator access.
+
+
+Временная безопасность – гарантия того, что программа будет вести себя определенным и безопасным образом, если она обращается к памяти, когда эта память недействительна для доступа. Примеры включают use after free (UAF), двойное освобождение, использование до инициализации и use after move (UAM). Нарушения временной безопасности часто выглядят как путаница в типах. Например, программа ошибочно использует недавно освобожденный объект Dog, как если бы это был объект Cat. (Злоумышленники часто создают полностью поддельные объекты с помощью виртуальных таблиц, что дает им контроль над работой программы).
+
+Temporal safety is the guarantee that the program will behave in a defined and safe way if it accesses memory when that memory is not valid at the time of the access.
+Examples include use after free (UAF), double-free, use before initialization, and use after move (UAM). 
+Temporal safety violations often look like type confusion. 
+For example, the program mistakenly uses a recently-freed Dog object as if it were a Cat object. (Attackers often build entirely fake objects with vtables that give them control of program execution.)
