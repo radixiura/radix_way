@@ -1,0 +1,8 @@
+Есть два основных метода безопасности памяти: 
+
+
+
+
+There are 2 basic types of memory safety: spatial safety and temporal safety:
+Spatial safety is the guarantee that the program will behave in a defined and safe way if it accesses memory outside valid bounds.
+Examples include array bounds, struct and union field access, and iterator access.
