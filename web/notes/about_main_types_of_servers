@@ -1,0 +1,38 @@
+Database Server
+As the name implies, a database server is used to store the data of an organization that can be accessed and modified whenever required.
+It maintains the DBMS (Database Management System) along with all the databases.
+As per the received requests from users, systems, or servers, the Database Server probes for the associated data from all its databases and provides it back to the requested user.
+Used more often in a server-client architecture, a Database Server executes operations like data storage, access and modification, data archiving, and data analysis among other back-end tasks.
+
+Application Server
+An application server is responsible for handling all application-related operations, which often include both hardware and appropriate software required for the tasks.
+It is usually preferred for intricate transactional applications like payment gateways or accounting.
+Thus to provide effortless performance and bear the computational overhead, application servers have features like prebuilt redundancy, constant monitoring, pooling of resources, scalability, and more.
+There can also be other uses of an app server like a web application server, virtual machine host, patching and inspecting software updates across a network, or a transitional data processing server.
+
+Load Balancing Server
+A load balancing server is responsible for coherently distributing the network traffic over collective back-end servers of a data center.
+Load balancers are strategically connected as an intermediary server that receives the incoming traffic and evenly administers it across multiple servers.
+It improves the overall functionality, especially of applications with microservices.
+Load balancers make use of algorithms and methods like Round Robin, Weighted Round Robin, Chained Failover, Source IP Hash, URL Hash, Global Server Load Balancing, Least Connection, and Weighted Response Time, each having its distinct features catering to various requirements.
+
+
+Сервер базы данных
+Как следует из названия, сервер базы данных используется для хранения данных организации, к которым можно получить доступ и изменить их при необходимости.
+Он поддерживает СУБД (система управления базами данных) вместе со всеми базами данных.
+В соответствии с полученными запросами от пользователей, систем или серверов сервер баз данных проверяет связанные данные из всех своих баз данных и возвращает их запрошенному пользователю.
+Чаще используемый в архитектуре сервер-клиент, сервер базы данных выполняет такие операции, как хранение данных, доступ и изменение, архивирование данных и анализ данных среди других внутренних задач.
+
+Сервер приложений
+Сервер приложений отвечает за обработку всех операций, связанных с приложением, которые часто включают в себя как оборудование, так и соответствующее программное обеспечение, необходимое для выполнения задач.
+Обычно его предпочитают для сложных транзакционных приложений, таких как платежные шлюзы или бухгалтерский учет.
+Таким образом, чтобы обеспечить легкую производительность и нести вычислительные накладные расходы, серверы приложений имеют такие функции, как встроенная избыточность, постоянный мониторинг, объединение ресурсов, масштабируемость и многое другое.
+Также могут быть другие варианты использования сервера приложений, такие как сервер веб-приложений, узел виртуальной машины, исправление и проверка обновлений программного обеспечения в сети или промежуточный сервер обработки данных.
+
+Сервер балансировки нагрузки
+Сервер балансировки нагрузки отвечает за когерентное распределение сетевого трафика по коллективным внутренним серверам центра обработки данных.
+Балансировщики нагрузки стратегически подключены в качестве промежуточного сервера, который получает входящий трафик и равномерно распределяет его между несколькими серверами.
+Это улучшает общую функциональность, особенно приложений с микросервисами.
+Балансировщики нагрузки используют такие алгоритмы и методы, как Round Robin, Weighted Round Robin, Chained Failover, Source IP Hash, URL Hash, Global Server Load Balancing, Least Connection и Weighted Response Time, каждый из которых имеет свои особенности, отвечающие различным требованиям.
+
+
