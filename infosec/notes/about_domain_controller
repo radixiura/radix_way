@@ -1,0 +1,11 @@
+Used for network security, a Domain Controller (DC) is responsible for authenticating and authorizing user controls.
+With multiple systems connected in a domain, when a user logs into the network, a DC validates data like name, password, privileges related to the group, and individual policies defined in the server.
+DCs provide a centralized user management system, which also enables users to share resources securely.
+As DCs are more suitable for on-prem data centers, Directory as a Service is a better alternative for cloud users.
+Although DCs are more prone to cyber-attacks, this can be prevented by server hardening and regular updating for enhanced security.
+
+Контроллер домена (DC), используемый для сетевой безопасности, отвечает за аутентификацию и авторизацию пользовательских элементов управления.
+При наличии нескольких систем, подключенных к домену, когда пользователь входит в сеть, контроллер домена проверяет такие данные, как имя, пароль, привилегии, относящиеся к группе, и отдельные политики, определенные на сервере.
+Контроллеры домена предоставляют централизованную систему управления пользователями, которая также позволяет пользователям безопасно обмениваться ресурсами.
+Поскольку контроллеры домена больше подходят для локальных центров обработки данных, «Каталог как услуга» является лучшей альтернативой для облачных пользователей.
+Хотя контроллеры домена более подвержены кибератакам, этого можно избежать, укрепив сервер и регулярно обновляя его для повышения безопасности.
