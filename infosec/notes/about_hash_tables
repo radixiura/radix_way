@@ -1,3 +1,11 @@
+DHT (English distributed hash table - "distributed hash table") is a class of decentralized distributed search service systems that work like a hash table.
+As a data structure, a hash table can be an associative array containing (key-value) pairs.
+Also, the term DHT is associated with a number of principles and algorithms that allow you to record data by distributing information among a certain set of storage nodes, and restore them by distributed search by key.
+A feature of a distributed table is the ability to distribute information among a set of storage nodes in such a way that each participating node could find the value associated with a given key.
+Responsibility for maintaining the relationship between name and value is distributed among the nodes, whereby changing the set of members causes a minimum number of breaks.
+This allows you to easily scale DHT, as well as constantly monitor the addition and removal of nodes and errors in their work.
+
+
 DHT (англ. distributed hash table — «распределённая хеш-таблица») — это класс децентрализованных распределённых систем поисковой службы, работающей подобно хеш-таблице.
 Как структура данных, хеш-таблица может представлять собой ассоциативный массив, содержащий пары (ключ-значение).
 Также с термином DHT связан ряд принципов и алгоритмов, позволяющих записывать данные, распределяя информацию среди некоторого набора узлов-хранителей, и восстанавливать их путём распределённого поиска по ключу.
